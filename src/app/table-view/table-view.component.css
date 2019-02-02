@@ -1,0 +1,25 @@
+table {
+    width: 100%;
+}
+
+table.mat-table {
+    border-spacing: 0;
+}
+
+tr.mat-header-row {
+    height: 56px;
+}
+
+tr.mat-row, tr.mat-footer-row {
+    height: 48px;
+}
+
+th.mat-header-cell {
+    text-align: left;
+}
+
+th.mat-header-cell, td.mat-cell, td.mat-footer-cell {
+    padding-left: 1%;
+    border-left-width: 1px;
+    border-left-style: solid;
+}

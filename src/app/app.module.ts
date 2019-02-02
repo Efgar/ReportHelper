@@ -4,13 +4,24 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
+import { TableViewComponent } from './table-view/table-view.component';
+
+import {MatTableModule} from '@angular/material/table';
+
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TableViewComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    BrowserAnimationsModule,
+    AppRoutingModule,
+
+    MatTableModule
   ],
   providers: [],
   bootstrap: [AppComponent]
